@@ -5,5 +5,8 @@ public class EnumConstant {
         enum Size{SMALL , MEDIUM ,LARGE ,EXTRA_LARGE};
         Size s = Size.MEDIUM;
         System.out.println(s);
+        double x = 4;
+        double y = Math.sqrt(x);
+
     }
 }
